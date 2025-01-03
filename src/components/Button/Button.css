@@ -1,0 +1,17 @@
+button {
+    padding: 5px 10px;
+    border: 2px solid #ccc;
+    background-color: #e0e0e0;
+    color: #000;
+    font-size: 14px;
+    font-family: Verdana, Arial, sans-serif;
+    cursor: pointer;
+    box-shadow: inset 1px 1px #fff, inset -1px -1px #aaa;
+    text-shadow: 1px 1px #fff;
+  }
+  
+  button:hover {
+    background-color: #d0d0d0;
+    border-color: #bbb;
+  }
+  
