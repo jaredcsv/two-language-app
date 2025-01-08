@@ -7,13 +7,11 @@ const LanguageContext = createContext({
 
 function LanguageProvider({ children }) {
   const [language, setLanguage] = useState("en");
-  const [languageLoaded, setLanguageLoaded] = useState(false);
 
   useEffect(() => {
     const navigatorLanguage = window.navigator.language;
     const lang = navigatorLanguage.split('-')[0];
     setLanguage(lang);
-    setLanguageLoaded(true);
   }, []);
 
   function handleChangeLanguage(lan) {
@@ -22,7 +20,7 @@ function LanguageProvider({ children }) {
 
   return (
     <LanguageContext.Provider value={{ language, handleChangeLanguage }}>
-      {languageLoaded && children}
+      {children}
     </LanguageContext.Provider>
   );
 }
