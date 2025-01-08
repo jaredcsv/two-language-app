@@ -1,4 +1,4 @@
-import { useTranslateObject } from "../../hooks/useTranslate";
+import { useTranslateObject } from "../../hooks/useTranslates/useTranslateObject";
 import ArticleText from "./article-text.json";
 import "./Article.css";
 
