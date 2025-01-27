@@ -1,0 +1,87 @@
+/* Card Container */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    background-color: #fff;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Card Image */
+  .card-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Card Content */
+  .card-content {
+    padding: 16px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  /* Card Title */
+  .card-title {
+    font-size: 1.25rem;
+    margin: 0 0 8px;
+    font-weight: bold;
+    color: #222;
+  }
+  
+  /* Card Description */
+  .card-description {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 8px 0 12px;
+    line-height: 1.5;
+  }
+  
+  /* Categories */
+  .card-categories {
+    font-size: 0.85rem;
+    color: #666;
+    margin-bottom: 12px;
+  }
+  
+  /* Rating */
+  .card-rating {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 12px;
+  }
+  
+  /* Price */
+  .card-price {
+    font-size: 1rem;
+    margin-bottom: 12px;
+  }
+  
+  .card-price .original-price {
+    text-decoration: line-through;
+    color: #999;
+    margin-right: 8px;
+  }
+  
+  /* Stock Information */
+  .card-stock {
+    font-size: 0.85rem;
+    font-weight: bold;
+  }
+  
+  .card-stock.in-stock {
+    color: #28a745; /* Green for in stock */
+  }
+  
+  .card-stock.out-of-stock {
+    color: #dc3545; /* Red for out of stock */
+  }
+  
