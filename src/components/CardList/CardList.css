@@ -1,0 +1,30 @@
+.products-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 16px; /* Space between cards */
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin: 0 auto;
+    max-width: 1200px;
+    box-sizing: border-box;
+  }
+  
+  /* Add spacing at the bottom of the section */
+  .products-section > .card {
+    margin-bottom: 16px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .products-section {
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .products-section {
+      grid-template-columns: 1fr;
+    }
+  }
+  
