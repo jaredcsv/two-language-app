@@ -9,11 +9,11 @@ export function useTranslateArray(input) {
         let translatedItem = {};
   
         for (const [key, value] of Object.entries(item)) {
-          if (typeof value === "object" && value.prototype.hasOwnProperty.call(language)) {
+          if (typeof value === "object" && value.hasOwnProperty(language)) {
             translatedItem[key] = value[language];
           } else if (Array.isArray(value)) {
             translatedItem[key] = value.map((subItem) =>
-              typeof subItem === "object" && subItem.prototype.hasOwnProperty.call(language)
+              typeof subItem === "object" && subItem.hasOwnProperty(language)
                 ? subItem[language]
                 : subItem
             );
