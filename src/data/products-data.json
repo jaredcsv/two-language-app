@@ -1,0 +1,101 @@
+{
+  "products": [
+    {
+      "id": 201,
+      "name": {
+        "en": "The Great Gatsby",
+        "es": "El Gran Gatsby"
+      },
+      "inStock": true,
+      "price": 10.99,
+      "discount": 0.2,
+      "description": {
+        "en": "A classic novel by F. Scott Fitzgerald exploring themes of wealth, love, and the American dream.",
+        "es": "Una novela clásica de F. Scott Fitzgerald que explora temas de riqueza, amor y el sueño americano."
+      },
+      "image": "great-gatsby.jpg",
+      "categories": {
+        "en": ["Fiction", "Classics"],
+        "es": ["Ficción", "Clásicos"]
+      },
+      "rating": 4.8,
+      "details": {
+        "en": "Paperback, 180 pages. Published in 1925.",
+        "es": "Tapa blanda, 180 páginas. Publicado en 1925."
+      }
+    },
+    {
+      "id": 202,
+      "name": {
+        "en": "1984",
+        "es": "1984"
+      },
+      "inStock": true,
+      "price": 14.99,
+      "discount": 0.1,
+      "description": {
+        "en": "George Orwell's dystopian masterpiece that delves into themes of surveillance and totalitarianism.",
+        "es": "La obra maestra distópica de George Orwell que profundiza en los temas de vigilancia y totalitarismo."
+      },
+      "image": "1984.jpg",
+      "categories": {
+        "en": ["Fiction", "Dystopian"],
+        "es": ["Ficción", "Distópico"]
+      },
+      "rating": 4.7,
+      "details": {
+        "en": "Hardcover, 328 pages. Published in 1949.",
+        "es": "Tapa dura, 328 páginas. Publicado en 1949."
+      }
+    },
+    {
+      "id": 203,
+      "name": {
+        "en": "Sapiens: A Brief History of Humankind",
+        "es": "Sapiens: De animales a dioses"
+      },
+      "inStock": false,
+      "price": 18.99,
+      "discount": 0,
+      "description": {
+        "en": "Yuval Noah Harari's thought-provoking exploration of humanity's history and its future.",
+        "es": "La provocadora exploración de Yuval Noah Harari sobre la historia y el futuro de la humanidad."
+      },
+      "image": "sapiens.jpg",
+      "categories": {
+        "en": ["Non-Fiction", "History"],
+        "es": ["No ficción", "Historia"]
+      },
+      "rating": 4.6,
+      "details": {
+        "en": "Paperback, 464 pages. Published in 2011.",
+        "es": "Tapa blanda, 464 páginas. Publicado en 2011."
+      }
+    },
+    {
+      "id": 204,
+      "name": {
+        "en": "Harry Potter and the Philosopher's Stone",
+        "es": "Harry Potter y la piedra filosofal"
+      },
+      "inStock": true,
+      "price": 12.99,
+      "discount": 0.15,
+      "description": {
+        "en": "J.K. Rowling's magical tale of a young wizard's first year at Hogwarts School of Witchcraft and Wizardry.",
+        "es": "El mágico relato de J.K. Rowling sobre el primer año de un joven mago en el Colegio Hogwarts de Magia y Hechicería."
+      },
+      "image": "harry-potter.jpg",
+      "categories": {
+        "en": ["Fiction", "Fantasy"],
+        "es": ["Ficción", "Fantasía"]
+      },
+      "rating": 4.9,
+      "details": {
+        "en": "Paperback, 320 pages. Published in 1997.",
+        "es": "Tapa blanda, 320 páginas. Publicado en 1997."
+      }
+    }
+  ]
+}
+
