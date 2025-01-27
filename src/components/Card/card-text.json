@@ -1,0 +1,18 @@
+{
+  "categories": {
+    "en": "Categories",
+    "es": "Categorías"
+  },
+  "rating": {
+    "en": "Rating",
+    "es": "Calificación"
+  },
+  "inStock": {
+    "en": "In Stock",
+    "es": "Disponible"
+  },
+  "outOfStock": {
+    "en": "Out of Stock",
+    "es": "Agotado"
+  }
+}
