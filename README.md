@@ -38,6 +38,7 @@ npm run dev
 ```
 
 This will start the application on http://localhost:3000.
+
 4. Open the app in your browser
 
 Navigate to http://localhost:3000 in your browser to see the app in action.
